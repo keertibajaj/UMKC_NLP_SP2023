@@ -4,8 +4,8 @@ Calculated information, entropy, cross-entropy and KL Divergence of given distri
 For cross entropy and divergence, another distribution is considered for calculations
 </br>
 - Information: I(x) = -log<sub>2</sub>(p(x))
-- Cross Entropy: CE(p, q) = $-\sum {log_2} q(x)$
-- KL Divergence: DKL(p, q) = $\sum log_2  \frac{p(x)}{q(x)}$
+- Cross Entropy: CE(p, q) = $-\sum {p(x)log_2} q(x)$
+- KL Divergence: DKL(p, q) = $\sum p(x)log_2  \frac{p(x)}{q(x)}$
 
 
 ## Part 2: Spam Dataset
